@@ -20,15 +20,23 @@ public class Main {
 		minhaArvore.exibirInOrdem();
 		minhaArvore.exibirPreOrdem();
 		minhaArvore.exibirPosOrdem();
-		
-		minhaArvore.remover(new Obj(20));
 
+		
+		minhaArvore.remover(new Obj(2));
+		
+		
+		minhaArvore.exibirInOrdem();
+		minhaArvore.exibirPreOrdem();
+		minhaArvore.exibirPosOrdem();
+	
+		minhaArvore.remover(new Obj(10));
+		
 		minhaArvore.exibirInOrdem();
 		minhaArvore.exibirPreOrdem();
 		minhaArvore.exibirPosOrdem();
 		
-
 		
+		minhaArvore.remover(new Obj(50));
 
 	}
 
