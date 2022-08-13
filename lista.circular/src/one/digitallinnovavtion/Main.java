@@ -20,6 +20,7 @@ public class Main {
 		System.out.println(minhaListaCircular);
 		
 		System.out.println(minhaListaCircular.get(0));
+	
 
 	}
 
