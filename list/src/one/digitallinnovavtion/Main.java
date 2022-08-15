@@ -12,6 +12,7 @@ public class Main {
 		listCarros.add(new Carro("Ford"));
 		listCarros.add(new Carro("Hondai"));
 		listCarros.add(new Carro("Toyota"));
+		listCarros.add(new Carro("Tokaya"));
 		
 		System.out.println(listCarros.contains(new Carro("Toyota")));
 		
